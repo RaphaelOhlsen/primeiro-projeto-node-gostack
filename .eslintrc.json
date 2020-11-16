@@ -19,6 +19,12 @@
     "prettier"
   ],
   "rules": {
+    "prettier/prettier": "error",
+    "class-methods-use-this": "off",
+    "camelcase": "off",
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "argsIgnorePattern": "_"
+    }],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -26,7 +32,6 @@
         "ts": "never"
       }
     ],
-    "prettier/prettier": "error",
     "no-console": "off"
   },
   "settings": {
